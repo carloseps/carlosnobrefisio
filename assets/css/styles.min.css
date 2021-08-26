@@ -231,6 +231,32 @@ main {
     opacity: 1;
 }
 
+.feedback {
+    padding: 2rem;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0, rgba(54, 54, 54, 1) 100%);
+    color: #fff;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-size: 18px
+}
+
+.feedback .contato {
+    justify-content: center
+}
+
+.feedback h1 {
+    padding-bottom: 20px;
+    font-size: 25px
+}
+
+.img-relato {
+    padding-bottom: 20px;
+    height: 480px!important
+}
+
 @media (min-width: 992px) {
     .inicio {
         background: linear-gradient(0deg, rgba(0, 88, 47, 0.9125) 0%, rgba(21, 117, 62, 0.9125) 100%);
@@ -430,6 +456,9 @@ main {
 @media (min-width: 768px) {
     .contato .botao-contato {
         font-size: 1rem
+    }
+    .feedback .contato {
+        display: flex;
     }
 }
 
