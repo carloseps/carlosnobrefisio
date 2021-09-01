@@ -231,6 +231,23 @@ main {
     opacity: 1;
 }
 
+.container-video-1 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container-video-2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container-video h1 {
+    padding: 1rem;
+    padding-top: 25px;
+}
+
 .feedback {
     padding: 2rem;
     align-items: center;
@@ -258,6 +275,14 @@ main {
 }
 
 @media (min-width: 992px) {
+    .container-video-1 {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .container-video-2 {
+        margin: 0 auto;
+        width: 50%;
+    }
     .inicio {
         background: linear-gradient(0deg, rgba(0, 88, 47, 0.9125) 0%, rgba(21, 117, 62, 0.9125) 100%);
     }
