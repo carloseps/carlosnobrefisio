@@ -320,10 +320,14 @@ main {
     font-weight: 500
 }
 
-.sobre .sobre-topicos-texto li {
+.sobre .sobre-topicos-texto {
+    width: 100%;
+}
+
+.sobre .sobre-topicos-texto div {
+    margin-top: 1px;
+    padding: 0;
     font-weight: 300;
-    margin-top: 1rem;
-    padding: 0px 1rem
 }
 
 @media (min-width: 992px) {
@@ -335,6 +339,9 @@ main {
     }
     .sobre .sobre-topicos-texto li {
         padding: 0px
+    }
+    .sobre .sobre-topicos-texto {
+        width: 75%;
     }
 }
 
