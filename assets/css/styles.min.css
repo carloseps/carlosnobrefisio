@@ -235,9 +235,17 @@ main {
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    padding: 1rem;
+    padding-top: 25px;
 }
 
 .container-video-2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container-video-3 {
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -280,6 +288,10 @@ main {
         width: 50%;
     }
     .container-video-2 {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .container-video-3 {
         margin: 0 auto;
         width: 50%;
     }
