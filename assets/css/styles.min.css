@@ -54,6 +54,13 @@ main {
 #sobre-contato-gradient #sobre-foto-em-pe {
     display: none;
     width: 26rem;
+    margin: 0 auto;
+}
+
+#sobre-contato-gradient #sobre-foto-sorrindo {
+    display: none;
+    width: 35rem;
+    margin: 0 auto;
 }
 
 @media (min-width: 992px) {
@@ -63,6 +70,18 @@ main {
     }
     #sobre-contato-gradient #sobre-foto-em-pe {
         display: block;
+        margin-left: 130px;
+    }
+    #sobre-contato-gradient #sobre-foto-sorrindo {
+        display: block;
+        margin-left: 80px;
+    }
+    .feedbackgoogles .container-feedbackgoogle {
+        width: 50%!important;
+        margin: 0 auto;
+    }
+    .curiosidades .grupo-containers-curiosidade li dl {
+        font-size: 120%!important;
     }
 }
 
@@ -183,6 +202,7 @@ main {
 }
 
 .inicio {
+    display: none!important;
     align-items: center;
     background: #15753e;
     background: linear-gradient(0deg, #004d29 0%, #15753e 100%);
@@ -232,6 +252,7 @@ main {
 }
 
 .container-video-1 {
+    display: none;
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -240,12 +261,14 @@ main {
 }
 
 .container-video-2 {
+    display: none;
     margin: 0 auto;
     width: 100%;
     text-align: center;
 }
 
 .container-video-3 {
+    display: none;
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -280,6 +303,38 @@ main {
 .img-relato {
     padding-bottom: 20px;
     height: 480px!important
+}
+
+.feedbackgoogles {
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+
+.feedbackgoogles .grupo-containers-feedbackgoogle {
+    list-style: none!important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto
+}
+
+.feedbackgoogles .container-feedbackgoogle {
+    width: 100%;
+    padding-bottom: 20px;
+    display: block!important;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedbackgoogles .container-feedbackgoogle img {
+    height: 100%;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -323,13 +378,15 @@ main {
 
 .sobre .sobre-titulo {
     font-size: 37px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 1rem
 }
 
 .sobre .sobre-subtitulo {
     font-size: 29px;
-    font-weight: 500
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .sobre .sobre-topicos-texto {
@@ -337,8 +394,11 @@ main {
 }
 
 .sobre .sobre-topicos-texto div {
+    font-size: 20px;
     margin-top: 1px;
     padding: 0;
+    width: 100%;
+    text-align: justify;
     font-weight: 300;
 }
 
@@ -354,6 +414,12 @@ main {
     }
     .sobre .sobre-topicos-texto {
         width: 75%;
+    }
+    .sobre .sobre-topicos-texto div {
+        width: 80%;
+    }
+    .sobre .sobre-subtitulo {
+        width: 50%;
     }
 }
 
@@ -377,23 +443,44 @@ main {
 
 .contato .botao-contato {
     border: none;
+    border-radius: 40px;
     border-style: solid;
     border-width: 0.125rem;
     display: block;
     font-size: 0.875rem;
     font-weight: 400;
-    margin: 0px auto;
-    min-width: 11.25rem;
+    min-width: 20rem;
     padding: 0.75rem 0.875rem;
     text-align: center;
     text-transform: uppercase;
-    transition: background-color 0.2s linear
+    transition: background-color 0.2s linear;
+    margin: 0 auto;
+}
+
+.contato .botao-contato-final {
+    border: none;
+    background: #fff;
+    border-radius: 40px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    min-width: 25rem;
+    padding: 0.75rem 0.875rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.2s linear;
+    margin: 0 auto;
+    color: #004d29;
+}
+
+.contato .botao-contato-final:hover {
+    background: #fff;
 }
 
 .contato .botao-contato:first-child {
     background-color: #15753e;
     border-color: transparent;
-    color: #fff
+    color: #d2d2d2
 }
 
 .contato .botao-contato:first-child:hover {
@@ -495,6 +582,9 @@ main {
         margin-right: 0.5rem;
         margin-top: 0px !important
     }
+    .curiosidades .grupo-containers-curiosidade li {
+        width: 50%!important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -503,6 +593,13 @@ main {
     }
     .feedback .contato {
         display: flex;
+    }
+    .curiosidades .container-curiosidade {
+        width: 99%;
+    }
+    .curiosidades .grupo-containers-curiosidade li {
+        padding-top: 16px;
+        margin: 0 auto;
     }
 }
 
@@ -525,6 +622,68 @@ main {
     padding-top: 30px;
     font-weight: 400;
     text-shadow: 4px 2px 7px #555555;
+}
+
+.curiosidades {
+    background: #15753e;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+
+.curiosidades .grupo-containers-curiosidade {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.curiosidades .grupo-containers-curiosidade li {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.curiosidades .grupo-containers-curiosidade li dl {
+    font-size: 100%;
+    height: 100%;
+}
+
+.curiosidades .container-curiosidade {
+    background: #fff;
+    justify-content: center;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 96%;
+    text-align: justify;
+    align-items: center;
+}
+
+.curiosidades .container-curiosidade dl {
+    width: 50%;
+    font-size: 100%;
+    padding-top: 70px;
+    color: #444;
+    margin: 0 auto;
+}
+
+.curiosidades .container-curiosidade dl dt {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.curiosidades .container-curiosidade dl dd {
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 .container-local {
