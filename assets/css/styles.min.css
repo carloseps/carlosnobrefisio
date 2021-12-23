@@ -383,7 +383,7 @@ main {
 }
 
 .sobre .sobre-subtitulo {
-    font-size: 29px;
+    font-size: 20px;
     font-weight: 400;
     width: 100%;
     padding-bottom: 20px;
@@ -394,11 +394,11 @@ main {
 }
 
 .sobre .sobre-topicos-texto div {
-    font-size: 20px;
+    font-size: 17px;
+    margin: 0 auto;
     margin-top: 1px;
     padding: 0;
-    width: 100%;
-    text-align: justify;
+    width: 90%;
     font-weight: 300;
 }
 
@@ -416,9 +416,11 @@ main {
         width: 75%;
     }
     .sobre .sobre-topicos-texto div {
-        width: 80%;
+        font-size: 20px;
+        width: 100%;
     }
     .sobre .sobre-subtitulo {
+        font-size: 25px;
         width: 50%;
     }
 }
