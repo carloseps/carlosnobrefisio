@@ -306,6 +306,10 @@ main {
     height: 480px!important
 }
 
+.video-inicio{
+    height: 550px
+}
+
 .feedbackgoogles {
     margin: 0 auto;
     display: flex;
@@ -339,6 +343,9 @@ main {
 }
 
 @media (min-width:992px) {
+    .video-inicio{
+        height: 800px
+    }
     .container-video-1 {
         margin: 0 auto;
         width: 50%
@@ -939,6 +946,15 @@ main {
 
 .footer .footer-redes-sociais li a:hover svg {
     transform: scale(1.375)
+}
+
+@media (max-width: 575px) {
+    .navbar.active {
+        height: auto
+    }
+    .navbar.active .navlinks {
+        display: block
+    }
 }
 
 @media (min-width:768px) {
