@@ -482,6 +482,7 @@ main {
 }
 
 #ultimo-post {
+
     text-align: center
 }
 
@@ -517,6 +518,26 @@ main {
     font-size: .875rem;
     font-weight: 400;
     min-width: 20rem;
+    padding: .75rem .875rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color .2s linear;
+    margin: 0 auto
+}
+
+.botao-contato-2{
+    border: none;
+    background-color: #15753e;
+    border-color: transparent;
+    color: #d2d2d2;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: .125rem;
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    width: 25%;
+    min-width: 18rem;
     padding: .75rem .875rem;
     text-align: center;
     text-transform: uppercase;
