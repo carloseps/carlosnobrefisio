@@ -516,6 +516,10 @@ main {
     width: 80%
 }
 
+.container-texto-foto-post p{
+    text-align: left!important
+}
+
 .contato .botao-contato {
     border: none;
     border-radius: 40px;
