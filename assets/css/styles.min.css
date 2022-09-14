@@ -344,11 +344,11 @@ main {
 
 @media (min-width:992px) {
     .video-inicio{
-        height: 800px
+        height: 500px;
     }
-    .container-video-1 {
+    .container-video {
         margin: 0 auto;
-        width: 50%
+        width: 50%;
     }
     .container-video-2 {
         margin: 0 auto;
