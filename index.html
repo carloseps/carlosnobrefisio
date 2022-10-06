@@ -14,16 +14,16 @@
     <link rel="stylesheet" href="./assets/css/styles.min.css" />
     <link rel="stylesheet" href="./assets/css/flickity.css">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-616167728"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'AW-616167728');
-    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MXJ6X7V');</script>
+    <!-- End Google Tag Manager -->
 
     <!-- Event snippet for Agendar consulta conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
     <script>
@@ -39,6 +39,12 @@
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXJ6X7V" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <nav class="navbar">
         <div class="container">
             <div class="navbar-brand">
@@ -126,8 +132,9 @@
                 </section>
 
                 <section id="contato-botoes" class="contato">
-                    <a class="botao-contato " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                        target="_blank ">AGENDAR CONSULTA</a>
+                    <a class="botao-contato "
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDAR CONSULTA</a>
                     <a class="botao-contato " style="display: none!important;"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdXdF6MWOFDvZ8bry5bofKw4ZCX90GrGjxPoeykKgeaflwGeQ/viewform "
                         target="_blank ">Pegue seu brinde</a>
@@ -149,7 +156,7 @@
                     </div>
                     <br>
                     <section id="contato-botoes" class="contato">
-                        <a class="botao-contato " href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA CONSULTA AQUI</a>
+                        <a class="botao-contato " onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');" href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA CONSULTA AQUI</a>
                         <a class="botao-contato " style="display: none!important;" href="https://docs.google.com/forms/d/e/1FAIpQLSdXdF6MWOFDvZ8bry5bofKw4ZCX90GrGjxPoeykKgeaflwGeQ/viewform " target="_blank ">Pegue seu brinde</a>
                         
                     </section>
@@ -163,8 +170,9 @@
                 </video>
                 <br>
                 <section id="contato-botoes" class="contato">
-                    <a class="botao-contato " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                        target="_blank ">AGENDAR CONSULTA</a>
+                    <a class="botao-contato "
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDAR CONSULTA</a>
                     <a class="botao-contato " style="display: none!important;"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdXdF6MWOFDvZ8bry5bofKw4ZCX90GrGjxPoeykKgeaflwGeQ/viewform "
                         target="_blank ">Pegue seu brinde</a>
@@ -330,6 +338,7 @@
             <br><br>
             <section id="contato-botoes" class="contato">
                 <a class="botao-contato " style="min-width: 70%;"
+                    onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
                     href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">Consulte você também com
                     o Dr. Carlos Nobre</a>
                 <a class="botao-contato " style="display: none!important;"
@@ -368,8 +377,10 @@
                     </section>
 
                     <section id="contato-botoes" class="contato">
-                        <a class="botao-contato " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                            target="_blank ">AGENDE SUA CONSULTA AGORA</a>
+                        <a class="botao-contato "
+                            onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                            href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA
+                            CONSULTA AGORA</a>
                         <a class="botao-contato " style="display: none!important;"
                             href="https://docs.google.com/forms/d/e/1FAIpQLSdXdF6MWOFDvZ8bry5bofKw4ZCX90GrGjxPoeykKgeaflwGeQ/viewform "
                             target="_blank ">Pegue seu brinde</a>
@@ -425,21 +436,27 @@
 
             <ul class="consultorias">
                 <li class="modelo-consultoria">
-                    <a class="botao-consult" href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">
+                    <a class="botao-consult"
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">
                         <h1>Consultoria Padrão</h1>
                         <p>Este modelo de consultoria é voltado para um paciente de forma única, onde o mesmo é
                             orientado e auxiliado a como cuidar da sua coluna.</p>
                     </a>
                 </li>
                 <li class="modelo-consultoria">
-                    <a class="botao-consult" href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">
+                    <a class="botao-consult"
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">
                         <h1>Consultoria Premium</h1>
                         <p>Uma consultoria única para o paciente, onde o mesmo tem acesso a maiores conteúdos
                             instrutivos e auxiliadores.</p>
                     </a>
                 </li>
                 <li class="modelo-consultoria">
-                    <a class="botao-consult" href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">
+                    <a class="botao-consult"
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">
                         <h1>Consultoria Master</h1>
                         <p>Este modelo de consultoria é voltado para empresas. Através de uma palestra que irá orientar
                             os profissionais a cuidarem da coluna.</p>
@@ -473,8 +490,9 @@
                 </li>
             </ul>
             <section id="contato-botoes" class="contato">
-                <a class="botao-contato-final " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                    target="_blank ">AGENDAR CONSULTA</a>
+                <a class="botao-contato-final "
+                    onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDAR CONSULTA</a>
             </section>
         </section>
 
@@ -531,8 +549,10 @@
                         alt="Feedback de um(a) paciente" />
                 </picture>
                 <br>
-                <a class="botao-contato-2" href="https://api.whatsapp.com/send?phone=5584988753233 "
-                    target="_blank ">AGENDE SUA CONSULTA AGORA</a>
+                <a class="botao-contato-2"
+                    onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA CONSULTA
+                    AGORA</a>
                 <br>
             </div>
 
@@ -591,8 +611,10 @@
                         alt="Feedback de um(a) paciente" />
                 </picture>
                 <br>
-                <a class="botao-contato-2" href="https://api.whatsapp.com/send?phone=5584988753233 "
-                    target="_blank ">AGENDE SUA CONSULTA AGORA</a>
+                <a class="botao-contato-2"
+                    onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA CONSULTA
+                    AGORA</a>
                 <br>
             </div>
 
@@ -647,8 +669,10 @@
                         alt="Feedback de um(a) paciente" />
                 </picture>
                 <br>
-                <a class="botao-contato-2" href="https://api.whatsapp.com/send?phone=5584988753233 "
-                    target="_blank ">AGENDE SUA CONSULTA AGORA</a>
+                <a class="botao-contato-2"
+                    onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA CONSULTA
+                    AGORA</a>
                 <br>
             </div>
 
@@ -703,8 +727,10 @@
                         alt="Feedback de um(a) paciente" />
                 </picture>
                 <br>
-                <a class="botao-contato-2" href="https://api.whatsapp.com/send?phone=5584988753233 "
-                    target="_blank ">AGENDE SUA CONSULTA AGORA</a>
+                <a class="botao-contato-2"
+                    onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">AGENDE SUA CONSULTA
+                    AGORA</a>
                 <br>
             </div>
         </section>
@@ -726,8 +752,10 @@
                     <p>(R. Cel. Francisco Borges, 111 - Tirol, Natal - RN, 59020-270)</p>
                     <br>
                     <section id="contato-botoes" class="contato">
-                        <a class="botao-contato-final " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                            target="_blank ">QUERO VIVER SEM DOR</a>
+                        <a class="botao-contato-final "
+                            onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                            href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">QUERO VIVER SEM
+                            DOR</a>
                     </section>
                 </div>
                 <div class="local-texto ">
@@ -741,8 +769,10 @@
                             width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
                 </div><br>
                 <section id="contato-botoes" class="contato">
-                    <a class="botao-contato-final " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                        target="_blank ">FAÇA SUA AVALIAÇÃO</a>
+                    <a class="botao-contato-final "
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">FAÇA SUA
+                        AVALIAÇÃO</a>
                 </section>
             </div>
             <div class="container-local-tablet ">
@@ -752,8 +782,10 @@
                             width="450" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
                 </div><br>
                 <section id="contato-botoes" class="contato">
-                    <a class="botao-contato-final " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                        target="_blank ">FAÇA SUA AVALIAÇÃO</a>
+                    <a class="botao-contato-final "
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">FAÇA SUA
+                        AVALIAÇÃO</a>
                 </section>
             </div>
             <div class="container-local-mobile ">
@@ -764,8 +796,10 @@
                 </div>
                 <br>
                 <section id="contato-botoes" class="contato">
-                    <a class="botao-contato-final " href="https://api.whatsapp.com/send?phone=5584988753233 "
-                        target="_blank ">FAÇA SUA AVALIAÇÃO</a>
+                    <a class="botao-contato-final "
+                        onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">FAÇA SUA
+                        AVALIAÇÃO</a>
                 </section>
             </div>
 
@@ -777,7 +811,8 @@
         <div class="container ">
             <ul class="footer-redes-sociais ">
                 <li>
-                    <a href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank "
+                    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
+                        href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank "
                         aria-label="Contate pelo whatsapp ">
                         <svg viewBox="0 0 24 24 ">
                             <path fill="currentColor "
