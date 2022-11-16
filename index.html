@@ -14,6 +14,33 @@
     <link rel="stylesheet" href="./assets/css/styles.min.css" />
     <link rel="stylesheet" href="./assets/css/flickity.css">
 
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '479082313496437');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=479082313496437&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-616167728"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-616167728'); </script>
+
+    <!-- Event snippet for Agendar consulta conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script> function gtag_report_conversion(url) { var callback = function () { if (typeof (url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-616167728/QHiUCJmG4eMDELDy56UC', 'event_callback': callback }); return false; } </script>
+
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -25,17 +52,6 @@
         })(window, document, 'script', 'dataLayer', 'GTM-MXJ6X7V');</script>
     <!-- End Google Tag Manager -->
 
-    <!-- Event snippet for Agendar consulta conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', { 'send_to': 'AW-616167728/QHiUCJmG4eMDELDy56UC', 'event_callback': callback }); return false;
-        } </script>
-
 </head>
 
 <body>
@@ -44,7 +60,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXJ6X7V" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <nav class="navbar">
         <div class="container">
             <div class="navbar-brand">
@@ -255,7 +271,8 @@
             <section id="contato-botoes" class="contato">
                 <a class="botao-contato " style="min-width: 70%;"
                     onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5584988753233');"
-                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">Agendar consulta com Dr. Carlos Nobre</a>
+                    href="https://api.whatsapp.com/send?phone=5584988753233 " target="_blank ">Agendar consulta com Dr.
+                    Carlos Nobre</a>
                 <a class="botao-contato " style="display: none!important;"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdXdF6MWOFDvZ8bry5bofKw4ZCX90GrGjxPoeykKgeaflwGeQ/viewform "
                     style="color: white;" target="_blank ">E-book gratuito</a>
