@@ -817,7 +817,7 @@ main {
     margin: 0 auto;
     margin-bottom: 20px;
     width: 96%;
-    text-align: justify;
+    text-align: center;
     align-items: center
 }
 
@@ -840,7 +840,7 @@ main {
     justify-content: space-around;
     height: fit-content;
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
     width: 100%!important;
 }
