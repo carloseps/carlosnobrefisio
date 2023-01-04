@@ -84,6 +84,9 @@ main {
     .curiosidades .grupo-containers-curiosidade li dl {
         font-size: 120%!important
     }
+    .tratamos .grupo-containers-tratamos li p {
+        font-size: 180%!important
+    }
     .container-apresentacao-final h4 {
         width: 40%!important
     }
@@ -685,6 +688,9 @@ main {
     .curiosidades .grupo-containers-curiosidade li {
         width: 50%!important
     }
+    .tratamos .grupo-containers-tratamos li {
+        width: 30%!important
+    }
 }
 
 @media (min-width:768px) {
@@ -700,6 +706,16 @@ main {
     .curiosidades .grupo-containers-curiosidade li {
         padding-top: 16px;
         margin: 0 auto
+    }
+    .tratamos .container-tratamos {
+        width: 99%
+    }
+    .tratamos .grupo-containers-tratamos{
+        width: 100%;
+        height: 100%;
+    }
+    .tratamos .grupo-containers-tratamos li {
+        margin: 0 auto;
     }
 }
 
@@ -810,6 +826,68 @@ main {
     font-size: 100%;
     padding-top: 70px;
     color: #444;
+    margin: 0 auto
+}
+
+.tratamos {
+    font-size: 1.125rem;
+    font-weight: 600;
+    position: relative;
+    text-align: center
+}
+
+.tratamos .container-title-tratamos {
+    justify-content: space-around;
+    height: fit-content;
+    padding: 20px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%!important;
+}
+
+.tratamos .grupo-containers-tratamos {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+
+.tratamos .grupo-containers-tratamos li {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 40px
+}
+
+.tratamos .grupo-containers-tratamos li p {
+    font-size: 170%;
+    font-weight: 800;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tratamos .container-tratamos {
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%!important;
+    display: block;
+    margin: 0 auto;
+    width: 96%;
+    text-align: justify;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.tratamos .container-tratamos p {
+    width: 70%;
+    font-size: 100%;
+    padding-top: 50%;
+    color: #FFF;
     margin: 0 auto
 }
 
