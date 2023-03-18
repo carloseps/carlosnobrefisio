@@ -679,6 +679,19 @@ main {
     }
 }
 
+@media (max-width: 767px){
+    .navbar .navlinks li a {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .navbar.active {
+        height: auto
+    }
+    .navbar.active .navlinks {
+        display: block
+    }
+}
+
 @media (min-width:768px) {
     .contato .botao-contato {
         font-size: 1rem
