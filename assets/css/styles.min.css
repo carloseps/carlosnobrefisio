@@ -51,13 +51,13 @@ main {
 
 #sobre-contato-gradient #sobre-foto-em-pe {
     display: none;
-    width: 30rem;
+    width: 40rem;
     margin: 0 auto
 }
 
 #sobre-contato-gradient #sobre-foto-segurando-coluna {
     display: none;
-    width: 31rem;
+    width: 100%;
     margin: 0 auto
 }
 
@@ -67,17 +67,20 @@ main {
         display: flex
     }
 
+    #sobre-contato-gradient .container{
+        height: 100%;
+        margin-bottom: 160px;
+    }
+
     #sobre-contato-gradient #sobre-foto-em-pe {
         display: block;
-        margin-left: 130px;
+        margin-left: 150px;
         margin-right: 30px;
-        margin-bottom: 60px
     }
 
     #sobre-contato-gradient #sobre-foto-segurando-coluna {
         display: block;
-        margin-left: 80px;
-        margin-right: 80px
+        width: 65%;
     }
 
     .curiosidades .grupo-containers-curiosidade li dl {
@@ -306,7 +309,6 @@ main {
 }
 
 .feedback h1 {
-    padding-bottom: 20px;
     font-size: 25px
 }
 
@@ -437,6 +439,43 @@ main {
         justify-content: flex-start;
         padding-top: 0
     }
+}
+
+#especialidades {
+    height: max-content;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background: #fff
+}
+
+.especialidades .container-do-titulo-especialidades {
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: #212121;
+    font-size: 25px;
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto
+}
+
+.especialidades .texto-especialidades {
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto
+}
+
+.especialidades .texto-especialidades .item-texto-especialidades {
+    padding-top: 10px;
+    color: #212121;
+    font-weight: 300;
+    width: 100%;
+    margin: 0 auto
 }
 
 #consulta {
