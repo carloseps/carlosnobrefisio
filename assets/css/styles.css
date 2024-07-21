@@ -516,7 +516,6 @@ main {
 
 .method .container-items {
     padding-bottom: 15px;
-    padding-top: 15px;
     list-style: none;
     margin: 0 auto;
     width: 95%;
@@ -1248,7 +1247,7 @@ footer .footer-copyright {
         padding-top: 40px;
     }
     .method p{
-        width: 90%;
+        width: 95%;
     }
     .method .container{
         padding-bottom: 10px;
@@ -1278,16 +1277,16 @@ footer .footer-copyright {
         padding-top: 1rem;
     }
     .solution .container{
-        padding: 30px;
+        padding: 0px;
         margin-top: 20px;
     }
     .solution .container h1{
         width: 90%;
-        font-size: 35px;
+        font-size: 30px;
     }
     .solution .container h2{
-        width: 80%;
-        font-size: 27.5px;
+        width: 90%;
+        font-size: 25px;
     }
     .solution .container-items .box-items {
         display: block;
@@ -1315,12 +1314,12 @@ footer .footer-copyright {
         margin-top: 20px;
     }
     .treat .container h1{
-        width: 90%;
-        font-size: 35px;
+        width: 100%;
+        font-size: 27.5px;
     }
     .treat .container h2{
         width: 80%;
-        font-size: 27.5px;
+        font-size: 25px;
     }
     .treat .container-items .box-items {
         display: block;
@@ -1379,7 +1378,7 @@ footer .footer-copyright {
     }
     .method h2{
         font-size: 27.5px;
-        width: 90%;
+        width: 100%;
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 30px;
@@ -1397,7 +1396,7 @@ footer .footer-copyright {
     }
     .technique h2{
         font-size: 27.5px;
-        width: 90%;
+        width: 100%;
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 30px;
