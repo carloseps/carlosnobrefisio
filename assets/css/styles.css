@@ -602,6 +602,7 @@ main {
 .method .carousel-section .test-card-body {
     max-width: 450px;
     height: 520px;
+    background: none;
     padding: 0;
 }
 
