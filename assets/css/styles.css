@@ -741,6 +741,136 @@ main {
     transition: .72s
 }
 
+.neuro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color);
+    padding-top: 2rem;
+}
+
+.neuro .container-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    height: 50vh;
+}
+
+.neuro .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.neuro h1{
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.neuro h2{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.neuro h3{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.neuro .container-items {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    list-style: none;
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.neuro .container-items .box-items {
+    border-radius: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 32%;
+    max-width:800px;
+    min-height: 400px;
+}
+
+
+.neuro .container-items .box-items .container-picture {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width:450px;
+}
+
+.neuro .container-items .box-items .container-picture img{
+    border-radius: 2.5%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 30px #014e2ab4; 
+}
+
+.neuro .botao-cta-2 {
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: var(--primary-color);
+    -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    display: flex;
+    width: 65%;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    min-width: 5.25rem;
+    min-height: 3rem;
+    padding: .85rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    transition: .71s
+}
+
+.neuro .botao-cta-2:hover {
+    background: rgb(220, 255, 220);
+    color: var(--primary-color);
+    border: none;
+    transition: .72s
+}
+
 .solution {
     padding-top: 4rem;
     background: #191919;
@@ -1104,6 +1234,13 @@ footer .footer-copyright {
     .technique h2{
         margin-top: 20px;
     }
+    .neuro .container-picture {
+        padding-top: 60px;
+        height: 95vh;
+    }
+    .neuro h2{
+        margin-top: 20px;
+    }
     .end .container-round{
         padding: 30px;
         padding-bottom: 0px;
@@ -1155,6 +1292,45 @@ footer .footer-copyright {
         width: 60%;
     }
     .technique .botao-cta-2 {
+        width: 80%;
+        font-size: 18px;
+        font-weight: 600;
+        min-width: 6.25rem;
+        min-height: 3.5rem;
+        padding: .85rem;
+    }
+    .neuro h1{
+        font-size: 37.5px;
+        width: 90%;
+        padding-top: 40px;
+    }
+    .neuro h2{
+        font-size: 25px;
+        width: 90%;
+    }
+    .neuro h3{
+        font-size: 22px;
+        width: 90%;
+    }
+    .neuro p{
+        width: 90%;
+    }
+    .neuro .container{
+        padding-bottom: 10px;
+    }
+    .neuro .container-items .box-items {
+        padding: 25px;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        height: fit-content;
+    }
+    .neuro .container-items .box-items h1 {
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 60%;
+    }
+    .neuro .botao-cta-2 {
         width: 80%;
         font-size: 18px;
         font-weight: 600;
@@ -1285,6 +1461,9 @@ footer .footer-copyright {
         padding: .85rem;
     }
     .technique {
+        padding-top: 1rem;
+    }
+    .neuro {
         padding-top: 1rem;
     }
     .solution .container{
@@ -1421,6 +1600,40 @@ footer .footer-copyright {
         height: auto;
     }
     .technique .container-items .box-items h1 {
+        width: 90%;
+        padding: 0px 0px 20px 0px;
+    }
+    .neuro{
+        padding-top: 4rem;
+    }
+    .neuro h1{
+        font-size: 27.5px;
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+    .neuro h2{
+        font-size: 17.5px;
+        width: 95%;
+        padding-top: 0px;
+        margin-top: 0px;
+    }.neuro h3{
+        font-size: 15.5px;
+        width: 85%;
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    .neuro .container-picture picture img{
+        padding: 0;
+    }
+    .neuro .container-picture {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+    .neuro .container-items .box-items h1 {
         width: 90%;
         padding: 0px 0px 20px 0px;
     }
