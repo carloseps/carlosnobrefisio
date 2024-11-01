@@ -658,6 +658,7 @@ main {
 }
 
 .technique .container-items .box-items {
+    margin-top: 25px;
     border-radius: 2.5%;
     display: flex;
     flex-direction: column;
@@ -894,6 +895,7 @@ main {
 }
 
 .solution .container h1{
+    margin-top: 20px;
     font-size: 35px;
     width: 70%;
     color: var(--secondary-color)
@@ -976,6 +978,24 @@ main {
     transition: .72s
 }
 
+.solution .container-picture picture img{
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.solution .container-picture {
+    padding: 30px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 80%;
+}
+
 .treat {
     padding-top: 4rem;
     background: var(--special-grey);
@@ -1036,12 +1056,54 @@ main {
     height: auto;
     width: 32%;
     max-width:800px;
-    max-height:450px;
+    max-height:800px;
     min-height: 60px;
     margin-bottom: 10px;
 }
 
 .treat .container-items .box-items h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 90%;
+    color: var(--primary-color)
+}
+
+.treat .container-items .box-items-with-image {
+    border-radius: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    text-align: center;
+    height: auto;
+    width: 32%;
+    max-height:800px;
+    margin-bottom: 10px;
+}
+
+.treat .container-items .box-items-with-image .container-picture {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.treat .container-items .box-items-with-image .container-picture img{
+    border-radius: 2.5%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.treat .container-items .box-items-with-image h1{
+    padding: 20px 0px 20px 0px;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 300;
@@ -1319,7 +1381,6 @@ footer .footer-copyright {
         padding-bottom: 10px;
     }
     .neuro .container-items .box-items {
-        padding: 25px;
         width: 100%;
         text-align: center;
         margin: 10px;
@@ -1523,6 +1584,18 @@ footer .footer-copyright {
         margin: 0 auto;
         width: 90%;
     }
+    .treat .container-items .box-items-with-image {
+        display: block;
+        padding: 25px;
+        width: 45%;
+        text-align: center;
+        margin: 10px;
+        height: fit-content;
+    }
+    .treat .container-items .box-items-with-image h1 {
+        margin: 0 auto;
+        width: 90%;
+    }
     .treat .botao-cta-2 {
         width: 92.5%;
         font-size: 15px;
@@ -1607,20 +1680,20 @@ footer .footer-copyright {
         padding-top: 4rem;
     }
     .neuro h1{
-        font-size: 27.5px;
+        font-size: 30px;
         width: 100%;
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 30px;
     }
     .neuro h2{
-        font-size: 17.5px;
+        font-size: 20.5px;
         width: 95%;
         padding-top: 0px;
         margin-top: 0px;
     }.neuro h3{
-        font-size: 15.5px;
-        width: 85%;
+        font-size: 18.5px;
+        width: 95%;
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 20px;
@@ -1641,6 +1714,9 @@ footer .footer-copyright {
         width: 100%;
     }
     .treat .container-items .box-items {
+        width: 100%;
+    }
+    .treat .container-items .box-items-with-image {
         width: 100%;
     }
     .end .container-round .container-picture {
