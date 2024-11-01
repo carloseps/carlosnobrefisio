@@ -903,6 +903,14 @@ main {
 .solution .container h2{
     padding: 20px 0px 0px 0px;
     font-size: 30px;
+    width: 90%;
+    color: whitesmoke;
+}
+
+.solution .container h3{
+    padding: 20px 0px 0px 0px;
+    font-size: 27px;
+    width: 70%;
     color: whitesmoke;
 }
 
@@ -1537,6 +1545,10 @@ footer .footer-copyright {
     .solution .container h2{
         width: 90%;
         font-size: 25px;
+    }
+    .solution .container h3{
+        width: 90%;
+        font-size: 22px;
     }
     .solution .container-items .box-items {
         display: block;
