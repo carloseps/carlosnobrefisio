@@ -1545,11 +1545,11 @@ footer .footer-copyright {
     .solution .container h2{
         width: 90%;
         font-size: 25px;
-        margin-bottom: 25px;
     }
     .solution .container h3{
         width: 90%;
         font-size: 22px;
+        margin-bottom: 25px;
     }
     .solution .container-items .box-items {
         display: block;
