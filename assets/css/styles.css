@@ -1318,6 +1318,12 @@ main {
     color: #fff
 }
 
+.end .container iframe{
+    padding: 30px;
+    width: 100%;
+    max-height: 700px;
+}
+
 .end .container p{
     font-size: 18px;
     color: #fff;
