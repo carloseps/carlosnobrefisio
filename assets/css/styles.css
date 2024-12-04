@@ -242,7 +242,7 @@ main {
 
 .home h1{
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--primary-color);
     width: 100%;
     text-align: center;
@@ -253,7 +253,7 @@ main {
     margin: 0 auto;
     font-size: 20px;
     color: var(--primary-color);
-    width: 92.5%;
+    width: 95%;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -276,7 +276,8 @@ main {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     display: flex;
     width: 85%;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: center;
     font-weight: 600;
     margin: 0 auto;
     min-width: 5.25rem;
