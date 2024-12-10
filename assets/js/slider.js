@@ -1,7 +1,7 @@
 $('.feedbacks-container').owlCarousel({
     loop: true,
     autoplay: true,
-    autoplayTimeout: 17000,
+    autoplayTimeout: 10000,
     margin: 12,
     nav:true,
     navText:["<i class='fa-solid fa-arrow-left'></i>",
